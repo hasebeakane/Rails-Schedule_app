@@ -1,15 +1,22 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Schedule</title>
+    <title>ScheduleApp</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
+  
+  <header>
+   <h1>Ruby on Rails-スケジュール管理アプリ-</h1> 
+  </header>
+  
 
   <body>
     <%= yield %>
   </body>
+  
+
 </html>
